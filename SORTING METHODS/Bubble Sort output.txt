@@ -1,0 +1,35 @@
+Enter the number of elements in array::15
+Enter element arr[0]::1
+Enter element arr[1]::89
+Enter element arr[2]::69
+Enter element arr[3]::845
+Enter element arr[4]::497
+Enter element arr[5]::666
+Enter element arr[6]::536
+Enter element arr[7]::242
+Enter element arr[8]::841
+Enter element arr[9]::202
+Enter element arr[10]::338
+Enter element arr[11]::7
+Enter element arr[12]::116
+Enter element arr[13]::564
+Enter element arr[14]::858
+
+The array is::
+1 89 69 845 497 666 536 242 841 202 338 7 116 564 858 
+
+The sorted array is::
+1 7 69 89 116 202 242 338 497 536 564 666 841 845 858 
+
+======================================================
+********** ANALYSIS OF BUBBLE SORT ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(n)--> already sorted array 
+AVERAGE CASE :: O(n^2) --> elements are partially sorted
+WORST CASE :: O(n^2) --> elements are in descending order
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================

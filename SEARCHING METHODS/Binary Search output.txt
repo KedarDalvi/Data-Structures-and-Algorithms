@@ -1,0 +1,59 @@
+Enter the number of elements in array::15
+
+Please enter array elements in ASCENDING ORDER
+Enter element arr[0]::5
+Enter element arr[1]::14
+Enter element arr[2]::18
+Enter element arr[3]::22
+Enter element arr[4]::44
+Enter element arr[5]::49
+Enter element arr[6]::52
+Enter element arr[7]::100
+Enter element arr[8]::426
+Enter element arr[9]::859
+Enter element arr[10]::995
+Enter element arr[11]::1010
+Enter element arr[12]::2323
+Enter element arr[13]::3626
+Enter element arr[14]::4545
+
+The array is::
+5 14 18 22 44 49 52 100 426 859 995 1010 2323 3626 4545 
+
+Enter the element to be searched in array::49
+ELEMENT FOUND AT INDEX ::5
+
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::3626
+ELEMENT FOUND AT INDEX ::13
+
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::7989
+ELEMENT NOT PRESENT IN GIVEN ARRAY
+
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::2
+Thank you!!
+
+======================================================
+********** ANALYSIS OF BINARY SEARCH ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(1) --> Found at middle position
+AVERAGE CASE :: O(log n) --> Found in-between 
+WORST CASE :: O(log n) --> Element not found
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================

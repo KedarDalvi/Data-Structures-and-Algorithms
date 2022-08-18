@@ -1,0 +1,44 @@
+Enter the number of elements in array::10
+Enter element arr[0]::164
+Enter element arr[1]::155
+Enter element arr[2]::495
+Enter element arr[3]::888
+Enter element arr[4]::6591
+Enter element arr[5]::3620
+Enter element arr[6]::111
+Enter element arr[7]::132
+Enter element arr[8]::0
+Enter element arr[9]::794
+
+The array is::
+164 155 495 888 6591 3620 111 132 0 794 
+
+Enter the element to be searched in array::111
+ELEMENT FOUND AT INDEX ::6
+
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::1
+
+Enter the element to be searched in array::9636
+ELEMENT NOT PRESENT IN GIVEN ARRAY
+
+Do you want to continue searching? 
+1)YES 
+2)NO
+Your choice::2
+Thank you!!
+
+======================================================
+********** ANALYSIS OF LINEAR SEARCH ***********
+========================================================
+
+********** TIME COMPLEXITY ***********
+BEST CASE :: O(1) --> Found at 1-st position
+AVERAGE CASE :: O(n) --> Found in-between 
+WORST CASE :: O(n) --> Element not found
+
+********** SPACE COMPLEXITY ***********
+Space complexity :: O(1)
+======================================================
